@@ -1,0 +1,42 @@
+theme = "harbor"
+baseurl = "https://www.growply.com/"
+title = "Grow your business faster"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+# Optional
+# If you use googleAnalytics, you set top-level options in config.toml to the beginning of the config file like other top-level options.
+googleAnalytics = "UA-147539841-1"
+
+
+
+[Author]
+  name = ""
+
+[outputs]
+  section = ["JSON", "HTML"]
+
+[[params.nav]]
+  identifier = "tags"
+  name = "Tags"
+  icon = "fas fa-tag fa-lg"
+  url = "tags"
+  weight = 3
+
+[[params.nav]]
+  identifier = "categories"
+  name = "Category"
+  icon = "fas fa-folder-open fa-lg"
+  url = "categories"
+  weight = 3
+
+
+
+[params.logo]
+  url = "growply-logo.svg" # static/images/growply-logo.svg
+  width = 100
+  height = 38
+  alt = "Logo"
