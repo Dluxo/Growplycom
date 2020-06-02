@@ -5,5 +5,5 @@
 	path = harbor
 	url = https://github.com/matsuyoshi30/harbor.git
 [submodule "Growplycom"]
-	path = growplycom
+	path = Growplycom
 	url = git@github.com:Dluxo/Growplycom.git
